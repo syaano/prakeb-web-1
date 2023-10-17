@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        	<title>register</title> 
+    <link rel="stylesheet" href="adminpizza.html">
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>gresia's pizza</h1>
+    <p>Pizza is a round, flat bread made from several ingredients such as wheat flour, water, sugar, salt, yeast and olive oil which go through the stages of dough formation, fermentation and baking.</p>
+    <p>Let's order ur pizza !!!!</p>
+    <form  action="" method="POST">
+        <table border="1">
+            <thead>
+                <tr>
+                    <th colspan="2">Your Information</th>
+                    <!-- <th>2</th> -->
+                </tr>
+            </thead>
+           <tbody>
+                <tr>
+		    <td><label for="name">Name :</label></td>  	
+		    <td><input type="text" name="name"></td>	                                    
+                </tr>
+                <tr>
+	            <td><label for="address">Address:</label></td>
+		    <td><input type="text" name="address"></td>                    
+                </tr>
+                <tr>
+		    <td><label for="telephone">Telephone Number :</label></td> 		
+		    <td><input type="number" name="telephone"></td>	                                      
+                </tr>
+                <tr>
+	            <td><label for="email">Email :</label></td>    
+		    <td><input type="email" name="email"></td> 	                                    
+                </tr>
+                <tr>
+	            <td><label for="">Delivery Instruction :</label></td>
+		    <td><textarea name="" rows="4" cols="22"></textarea></td>                    
+                </tr>
+           </tbody>
+        </table>
+               <br>
+               <br>
+               <h3>create your pizza design</h3>
+               <p>your pizza topping</p>
+               <input type="radio" id="HTML" name="fav_language"value="HTML">
+               <label for="HTML">Chilli sauce</label>
+               <br>
+               <br>
+               <input type="radio" id="HTML" name="fav_language"value="HTML">
+               <label for="HTML">Tomato sauce</label>
+               <br>
+               <br>
+               <input type="radio" id="HTML" name="fav_language"value="HTML">
+               <label for="HTML">Cheese sauce</label>
+               <!!-- pizza -->
+               <p>choose the second topping as you like:</p>
+                <ul style="list-style: none;">
+                <li>
+		    <input type="checkbox" name="toping"  value="or">
+                    <label for="toping">Extra cheese</label>
+                   
+                </li>
+                <li>
+		    <input type="checkbox" name="toping"  value="ec">	
+                    <label for="toping">Mushroom</label>
+              
+                </li>
+		<li>
+		   <input type="checkbox" name="toping"  value="mr">	
+                   <label for="toping">Tuna Melt</label>
+              
+                </li>
+                </ul>
+               how many pizzas : <input type="number">
+               <br>
+               <br>
+               <input type="submit" value="let's order">
+               <input type="reset">
+               </form>
+               </fieldset>
+               
+               
+    </body>
+</html>
