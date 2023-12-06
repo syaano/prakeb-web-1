@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(126, 226, 158);
+}
+h1{
+    text-align: center;
+    color: rgb(131, 122, 216);
+}
+/* buat ukuran device smartphone */
+@media screen and (max-width: 720px){
+    body{
+        background-color: rgb(235, 173, 98);
+    }
+    h1{
+        color: rgb(226, 210, 190);
+    }
+}
+    
